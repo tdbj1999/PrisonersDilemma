@@ -51,6 +51,8 @@ for module in modules:
         if not hasattr(module, required_variable):
             setattr(module, required_variable, 'missing assignment')
 
+team_name = 'midnight'
+
 def main_play(modules):
     '''main_play plays a tournament and outputs results to screen and file.
     This function is called once when this file is executed.
